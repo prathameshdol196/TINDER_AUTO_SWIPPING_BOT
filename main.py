@@ -7,11 +7,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-FACEBOOK_LOGIN_ID = "7385348373"
-FACEBOOK_PASSWORD = "meat@2001"
+FACEBOOK_LOGIN_ID = "FACEBOOK LOGIN ID"
+FACEBOOK_PASSWORD = "FACEBOOK PASSWORD"
 
 
-chrome_driver_path = "C:\Developement\chromedriver.exe"
+chrome_driver_path = "YOUR CHROME DRIVER PATH"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 driver.get("https://tinder.com/")
 time.sleep(2)  # sleep until the data is loaded
